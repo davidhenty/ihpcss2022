@@ -1,15 +1,15 @@
 MF=	Makefile
 
+# For Bridges2
+FC=	mpif90
+FFLAGS=	-O3
+
 # Note the Fortran2008 interface does not currently work on Cirrus
 # The settings should work for most MPI versions, e.g. on your laptop
 
-# For the DAC
-#FC=	mpif90
-#FFLAGS=	-O3
-
 # For Cirrus
-FC=	mpif08
-FFLAGS=	-O3
+#FC=	mpif08
+#FFLAGS=	-O3
 
 # For ARCHER
 #FC=	ftn

@@ -1,12 +1,12 @@
 MF=	Makefile
 
-# For the DAC
-#CC=	mpicxx
-#CFLAGS=	-O3
+# For Bridges2
+CC=	mpicxx
+CFLAGS=	-O3
 
 # For Cirrus
-CC=	mpicxx
-CFLAGS=	-O3 -cxx=icpc
+#CC=	mpicxx
+#CFLAGS=	-O3 -cxx=icpc
 
 # For ARCHER
 #CC=	CC

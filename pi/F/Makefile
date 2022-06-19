@@ -1,13 +1,13 @@
 MF=	Makefile
 
-# For the DAC
+# For Bridges2
 
-#FC=	mpif90
-#FFLAGS=	-O3
-
-# For Cirrus
 FC=	mpif90
 FFLAGS=	-O3
+
+# For Cirrus
+#FC=	mpif90
+#FFLAGS=	-O3
 
 # For ARCHER
 #FC=	ftn
