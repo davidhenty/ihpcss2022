@@ -1,6 +1,6 @@
 MF=	Makefile
 
-FC=	mpifort
+FC=	mpif90
 
 FFLAGS=	-O3
 LFLAGS=	$(FFLAGS)
