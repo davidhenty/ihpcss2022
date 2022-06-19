@@ -43,7 +43,7 @@ def main(argv):
 
         if iter % printfreq == 0:
 
-          print(f"At iteration {iter} average velocity is {float(nmove)/float(ncars)}")
+          print(f"At iteration {iter} average velocity is {float(nmove)/float(ncars):.6f}")
 
     tstop = gettime()
 

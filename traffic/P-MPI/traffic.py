@@ -93,7 +93,7 @@ def main(argv):
 
             if (rank == 0):
 
-                print(f"At iteration {iter} average velocity is {float(nmove)/float(ncars)}")
+                print(f"At iteration {iter} average velocity is {float(nmove)/float(ncars):.6f}")
 
     tstop = MPI.Wtime()
 
