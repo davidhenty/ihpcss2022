@@ -7,7 +7,7 @@ int main(void)
   {
     #pragma omp master
     {
-      printf("Running in %d threads\n", omp_get_num_threads());
+      printf("Running on %d threads\n", omp_get_num_threads());
     }
 
     printf("Hello from thread %d\n", omp_get_thread_num());
