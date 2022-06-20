@@ -12,7 +12,7 @@ program hello
 
   write(*,*) "Hello from thread ", omp_get_thread_num()
 
-  !$omp end master
+  !$omp end parallel
 
 end program hello
 
