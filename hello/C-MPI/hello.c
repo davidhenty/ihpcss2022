@@ -11,7 +11,7 @@ int main(void)
   MPI_Comm_rank(comm, &rank);
 
   if (rank == 0) printf("Running on %d process(es)\n", size);
-  printf("Hello from rank %d!\n");
+  printf("Hello from rank %d!\n", rank);
 
   MPI_Finalize();
 
