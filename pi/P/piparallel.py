@@ -73,7 +73,7 @@ def main(argv):
 
         print(f"rank {rank} sending to rank 0")
 
-        comm.send(partialpi, dest=0, tag=0)
+        comm.ssend(partialpi, dest=0, tag=0)
 
     pi = pi * 4/N
 
